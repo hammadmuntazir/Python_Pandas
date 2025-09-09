@@ -1,5 +1,33 @@
-# Which country has highestPopulation
+Exdtract these data 
+ 
+ # Which country has highestPopulation
 condition selection krna hai pahly data frame ko target krna hai phir usi ky andar aik condition likh deni hai
+
+   # #What is capital of country with highest population
+  
+  ## Which country has least population
+
+   ## What is capital of country with least population
+
+ ## What is capital of country with least population
+
+  ## give me top5 countries with highest democratic score
+  
+  ## how many total regions are there in data sets
+  
+  ## how many countries are there in estern europe region
+  
+  # Who is political region of 2nd highest population country
+
+# how many countries are there whose political leader are unknown
+  
+ # Who is political region of 2nd highest population country
+
+#    how many countries are there whose political leader are unknown
+#  how many countries country_long have Republic in their name
+
+# which country in African region has highest population
+
 
 # df.column sy columns dekh saky gyein
 Index(['country', 'country_long', 'currency', 'capital_city', 'region',
