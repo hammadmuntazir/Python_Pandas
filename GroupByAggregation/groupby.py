@@ -17,12 +17,22 @@ for i,v in cat:
     print(v)
 # sales ka sum chyiea cateogry mein sy
 print(df.groupby('Category')['Sales'].sum())
-## Group  by create object jisy ap khud sy dekh nai skty hain
+## Group  by create object jisy ap khud sy dekh nai skty hain 
+     #Output  
+# Category
+# A     450
+# B     450
+# C    1050
+# Name: Sales, dtype: int64
 
 ## group by Store and calculate total sales 
 cat=df.groupby('Store')['Sales'].sum()
 print(cat)
-
+# Store
+# X     850
+# Y    1100
+# Name: Sales,
 ## group by multiple columns
+
 cat=df.groupby(['Category','Store'])['Sales'].sum()
 print(cat) #group by qualititive ki base pr krty hain

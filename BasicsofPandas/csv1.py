@@ -1,5 +1,4 @@
 # If you have a large DataFrame with many rows, Pandas will only return the first 5 rows, and the last 5 rows:
-
 # Tip: use to_string() to print the entire DataFrame.
 import pandas as pd
 
